@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "transform": { "host": "www.cnbeta.com.tw" } }
+    },
+    "condition": {
+      "urlFilter": "*://www.cnbeta.com",
+      "requestDomains": ["cnbeta.com"],
+      "resourceTypes": ["main_frame", "stylesheet"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "transform": { "host": "hot.cnbeta.com.tw" } }
+    },
+    "condition": {
+      "urlFilter": "*://hot.cnbeta.com",
+      "requestDomains": ["cnbeta.com"],
+      "resourceTypes": ["main_frame", "stylesheet"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "transform": { "host": "m.cnbeta.com.tw" } }
+    },
+    "condition": {
+      "urlFilter": "*://m.cnbeta.com",
+      "requestDomains": ["cnbeta.com"],
+      "resourceTypes": ["main_frame", "stylesheet"]
+    }
+  },
+  {
+    "id": 100,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.googlesyndication.com",
+      "initiatorDomains": ["cnbeta.com.tw"],
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 101,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.vidoomy.com",
+      "initiatorDomains": ["cnbeta.com.tw"],
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 102,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.baidu.com",
+      "initiatorDomains": ["cnbeta.com.tw"],
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 103,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.taboola.com.cn",
+      "initiatorDomains": ["cnbeta.com.tw"],
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 104,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.baidustatic.com",
+      "initiatorDomains": ["cnbeta.com.tw"],
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 105,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "/static/api/js/share.js",
+      "initiatorDomains": ["cnbeta.com.tw"],
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 106,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "/js/hzh.js",
+      "initiatorDomains": ["cnbeta.com.tw"],
+      "resourceTypes": ["script"]
+    }
+  }
+]

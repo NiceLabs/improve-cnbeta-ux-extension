@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Improve cnBeta.com.tw UX",
+    "description": "The description of the extension, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Improve cnBeta.com.tw User Experience",
+    "description": "The description of the extension, displayed in the web store."
+  }
+}
