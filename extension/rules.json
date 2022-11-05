@@ -147,5 +147,15 @@
       "initiatorDomains": ["cnbeta.com.tw"],
       "resourceTypes": ["script"]
     }
+  },
+  {
+    "id": 111,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "/js/util_libs/social-share/jquery.share.js",
+      "initiatorDomains": ["cnbeta.com.tw"],
+      "resourceTypes": ["script"]
+    }
   }
 ]

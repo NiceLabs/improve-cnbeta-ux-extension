@@ -8,6 +8,17 @@ body {
 .cbv,
 .cbimage-fixed,
 .cnbeta-article span.fr,
-.cnbeta-article-latest {
+.cnbeta-article-latest,
+.cnbeta-home-side,
+.cnbeta-article-vote-tags,
+.cnbeta-article-comments,
+.article-share-code,
+.pageFooter .media,
+.pageFooter .sponsors,
+.pageFooter .about {
   display: none !important;
+}
+
+.cnbeta-article {
+  width: auto !important;
 }
