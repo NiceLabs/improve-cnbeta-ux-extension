@@ -7,6 +7,7 @@ body {
 .tac,
 .cbv,
 .cbimage-fixed,
+.cnbeta-article span.fr,
 .cnbeta-article-latest {
   display: none !important;
 }
