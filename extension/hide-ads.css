@@ -19,6 +19,7 @@ body {
   display: none !important;
 }
 
-.cnbeta-article {
+.cnbeta-article,
+.cnbeta-update-list {
   width: auto !important;
 }
