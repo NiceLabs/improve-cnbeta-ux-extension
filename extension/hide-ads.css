@@ -2,20 +2,28 @@ body {
   margin-bottom: 0 !important;
 }
 
-#cbhahaha,
-.otherContent_01,
-.tac,
-.cbv,
-.cbimage-fixed,
-.cnbeta-article span.fr,
-.cnbeta-article-latest,
-.cnbeta-home-side,
-.cnbeta-article-vote-tags,
-.cnbeta-article-comments,
 .article-share-code,
-.pageFooter .media,
-.pageFooter .sponsors,
-.pageFooter .about {
+.article-topic,
+.cbimage-fixed,
+.cbv,
+.cnbeta-article span.fr,
+.cnbeta-article-comments,
+.cnbeta-article-latest,
+.cnbeta-article-vote-tags,
+.cnbeta-fullBanner,
+.cnbeta-home-side,
+.commnum,
+.gotop,
+.otherContent_01,
+.pageFooter,
+.tac,
+.tks,
+.topSearchBox,
+#abd-ad-div,
+#abd-ad-iframe-wrapper,
+#cbhahaha,
+#commentHolder,
+#goTop {
   display: none !important;
 }
 
