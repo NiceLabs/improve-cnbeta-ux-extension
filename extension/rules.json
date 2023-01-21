@@ -200,5 +200,14 @@
       "initiatorDomains": ["cnbeta.com.tw"],
       "resourceTypes": ["image"]
     }
+  },
+  {
+    "id": 115,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "initiatorDomains": ["cnbeta.com.tw"],
+      "resourceTypes": ["sub_frame"]
+    }
   }
 ]

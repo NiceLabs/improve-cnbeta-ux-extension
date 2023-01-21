@@ -1,3 +1,7 @@
+* {
+  transition: unset !important;
+}
+
 body {
   margin-bottom: 0 !important;
 }
